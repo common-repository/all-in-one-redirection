@@ -1,0 +1,425 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.vsz-redirection{
+	margin:15px 0 20px 0;
+	max-width:97%;
+	position:relative;
+	font-size:13px;
+	font-weight:normal;
+}
+.vsz-redirection.vsz-insert-form-sec{
+	margin:15px 0 50px 0;
+}
+.vsz-redirection .vsz-title{
+	font-weight:bold;
+	font-size:24px;
+	line-height:1.3em;
+	margin-bottom:20px;
+}
+.vsz-redirection .no-record{
+	padding:3px 10px 5px 10px;
+	background:#f00;
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
+}
+.mart10{
+	margin-top:10px;
+}
+.marb15{
+	margin-bottom:15px;
+}
+.marl15{
+	margin-left:15px !important;
+}
+.vsz-redirection .record-success{
+	padding:3px 10px 5px 10px;
+	background:#078207;
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:15px;
+}
+.vsz-redirection .redirection-list{
+	width:100%;
+	margin-bottom:15px;
+}
+.vsz-redirection .redirection-list,
+.vsz-redirection .redirection-list tr,
+.vsz-redirection .redirection-list td,
+.vsz-redirection .redirection-list th{
+	border:1px solid #ddd;
+	border-collapse:collapse;
+}
+.vsz-redirection .redirection-list th{
+	font-weight:bold;
+	background:#0073aa; /* d3d3d3 */
+	color:#fff;
+}
+.vsz-redirection .redirection-list tbody tr.even{
+	background:#eaeaea;
+}
+.vsz-redirection .redirection-list tbody tr.hide-record{
+	background:#e26464 !important;
+}
+.vsz-redirection .redirection-list tbody tr.add-more-info.hide-record{
+	background:#f3f3f3 !important;
+}
+.vsz-redirection .redirection-list tbody tr.add-more-info{
+	background:#f3f3f3 !important;
+}
+.vsz-redirection .redirection-list tbody tr.hide-record input[type="text"],
+.vsz-redirection .redirection-list tbody tr.hide-record select{ 
+	text-decoration:line-through;
+}
+.vsz-redirection input[readonly="readonly"]{
+	background:rgba(255,255,255,0.7) !important;
+}
+.vsz-redirection .redirection-list th span{
+	font-weight:normal;
+	margin-left:5px;
+}
+.vsz-redirection .redirection-list td{
+	padding:5px 10px;
+}
+.vsz-redirection .redirection-list th{
+	padding:8px 10px;
+}
+.vsz-redirection .redirection-list td.del_checkbox,
+.vsz-redirection .redirection-list th.del_checkbox{
+	width:5%;
+	text-align:center;
+}
+.vsz-redirection .redirection-list td.rtype,
+.vsz-redirection .redirection-list th.rtype{
+	width:7%;
+	text-align:center;
+}
+.vsz-redirection .redirection-list td.surl,
+.vsz-redirection .redirection-list th.surl{
+	width:28%;
+}
+.vsz-redirection .redirection-list td.durl,
+.vsz-redirection .redirection-list th.durl{
+	width:45%;
+}
+.vsz-redirection .redirection-list td.hits,
+.vsz-redirection .redirection-list th.hits{
+	width:8%;
+	text-align:center;
+}
+.vsz-redirection .redirection-list td.setting,
+.vsz-redirection .redirection-list th.setting{
+	width:7%;
+	text-align:center;
+}
+/**************** 404 page table setting *************/
+.vsz-redirection .redirection-list td.del_404_checkbox,
+.vsz-redirection .redirection-list th.del_404_checkbox{
+	width:5%;
+	text-align:center;
+}
+.vsz-redirection .redirection-list td.acc404_date,
+.vsz-redirection .redirection-list th.acc404_date{
+	width:9%;
+	text-align:center;
+}
+.vsz-redirection .redirection-list td.s404url,
+.vsz-redirection .redirection-list th.s404url{
+	width:25%;
+}
+.vsz-redirection .redirection-list td.referrer404,
+.vsz-redirection .redirection-list th.referrer404{
+	width:36%;
+}
+.vsz-redirection .redirection-list td.ip404,
+.vsz-redirection .redirection-list th.ip404{
+	width:10%;
+	text-align:center;
+}
+.vsz-redirection .redirection-list td.hits404,
+.vsz-redirection .redirection-list th.hits404{
+	width:8%;
+	text-align:center;
+}
+.vsz-redirection .redirection-list td.action404,
+.vsz-redirection .redirection-list th.action404{
+	width:7%;
+	text-align:center;
+}
+.vsz-redirection .redirection-list .list-setting-btn{
+	width:20px;
+	height:20px;
+	display:block;
+	background:url(setting-icon.png) scroll no-repeat center center;
+	cursor:pointer;
+	margin:0 auto;
+}
+.vsz-redirection .redirection-list .list-add-404-rule-btn{
+	width:20px;
+	height:20px;
+	display:block;
+	background:url(add-icon.png) scroll no-repeat center center;
+	cursor:pointer;
+	margin:0 auto;
+}
+.vsz-redirection .redirection-list .add-more-info{
+	display:none;
+}
+.vsz-redirection .redirection-list .add-more-info.active-more-info{
+	display:table-row;
+}
+.vsz-redirection .redirection-list .add-more-info div{
+	margin-bottom:5px;
+}
+.vsz-redirection .redirection-list .add-more-info span.lbl{
+	display:block;
+	min-width:123px;
+	position:relative;
+	margin-right:10px;
+	float:left;
+}
+.vsz-redirection .redirection-list .add-more-info span.lbl:after{
+	position:absolute;
+	top:0;
+	right:0;
+	content:":";
+}
+.vsz-redirection .redirection-list .add-more-info span.lbl-val{
+	overflow:hidden;
+	display:block;
+}
+.vsz-redirection input[type="file"]{
+	width:100%;
+	border:1px solid #d3d3d3;
+	margin:5px 0 0 0;
+}
+.vsz-redirection input[type="text"],
+.vsz-redirection select{
+	width:100%;
+}
+.vsz-redirection input[type="submit"]{
+	background:#0073aa;
+	color:#fff;
+	border:1px solid #0073aa;
+	box-shadow:none;
+	margin:5px 0 0 0;
+	padding:4px 20px 6px 20px;
+	cursor:pointer;
+}
+.vsz-redirection input[type="submit"]:hover{
+	background:rgba(0,0,0,0);
+	color:#0073aa;
+}
+.vsz-redirection .redirection-list .delete-redirection{
+	color:#0073aa;
+	cursor:pointer;
+}
+.vsz-redirection .redirection-list .delete-redirection:hover{
+	color:#000;
+}
+.vsz-redirection #redirection_delete_form{
+	display:none;
+}
+.vsz-redirection .insert-form-title{
+	font-weight:bold;
+	font-size:24px;
+	line-height:1.3em;
+	margin-bottom:20px;
+	margin-top:40px;
+}
+.vsz-redirection #redirection_insert_form{
+	max-width:90%;
+	border:1px solid #d3d3d3;
+	padding:15px 15px 10px 15px;
+	box-sizing:border-box;
+}
+.vsz-redirection #redirection_insert_form div{
+	margin-bottom:15px;
+}
+.vsz-redirection #redirection_insert_form div label{
+	display:inline-block;
+	vertical-align:middle;
+	width:15%;
+	position:relative;
+}
+.vsz-redirection #redirection_insert_form div label:after{
+	position:absolute;
+	top:-1px;
+	right:17px;
+	content:":";
+}
+.vsz-redirection #redirection_insert_form div span{
+	display:inline-block;
+	vertical-align:middle;
+	width:82%;
+}
+.vsz-redirection label{
+	display:block;
+	font-weight:bold;
+	cursor:default;
+}
+.vsz-redirection label span{
+	font-weight:normal;
+	margin-left:7px;
+}
+.vsz-redirection #redirection_insert_form input[type="submit"]{
+	padding:4px 35px 6px 35px;
+}
+.vsz-redirection .pagination-sec{
+	margin:25px 0 0 0;
+}
+.vsz-redirection .pagination-sec ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+.vsz-redirection .pagination-sec ul li{
+	display:inline-block;
+	margin:0 3px 5px 3px;
+}
+.vsz-redirection .pagination-sec ul li a{
+	display:block;
+	width:30px;
+	height:30px;
+	text-align:center;
+	background:#0073aa;
+	border:1px solid #0073aa;
+	color:#fff;
+	text-align:center;
+	line-height:28px;
+	text-decoration:none;
+}
+.vsz-redirection .pagination-sec ul li.extra-page.disable-page a{
+	opacity:0.6;
+}
+.vsz-redirection .pagination-sec ul li.extra-page a{
+	width:50px;
+}
+.vsz-redirection .pagination-sec ul li.extra-page.prev-page a{
+	margin-right:10px;
+}
+.vsz-redirection .pagination-sec ul li.extra-page.next-page a{
+	margin-left:10px;
+}
+.vsz-redirection .pagination-sec ul li a:hover,
+.vsz-redirection .pagination-sec ul li.active a{
+	color:#0073aa;;
+	background:rgba(0,0,0,0);
+}
+.vsz-redirection #redirection-delete-all-form{
+	position:absolute;
+	top:0;
+	right:0;
+}
+.vsz-redirection #redirection-hits-reset{
+	position:absolute;
+	top:0;
+	right:120px;
+}
+.vsz-redirection-setting-sec{
+	max-width:500px;
+}
+.vsz-redirection #redirection-setting-form div .lbl{
+	margin-bottom:5px;
+	font-weight:bold;
+	background:#0073aa;
+	color:#fff;
+	padding:5px 10px;
+}
+.vsz-redirection #redirection-setting-form > div{
+	padding-bottom:10px;
+	border:1px solid #d3d3d3;
+	margin-bottom:30px;
+}
+.vsz-redirection #redirection-setting-form > div.setting-note{
+	border:none;
+	padding-bottom:0;
+	margin-top:-20px;
+}
+.vsz-redirection #redirection-setting-form > div > div{
+	padding:0 10px;
+}
+.vsz-redirection #redirection-setting-form div label{
+	display:inline-block;
+	font-weight:normal;
+	cursor:pointer;
+}
+.vsz-redirection #redirection-setting-form div span{	
+	margin-right:20px;
+	display:inline-block;
+	min-width:100px;
+}
+.vsz-redirection #redirection-setting-form .additional-setting div{
+	margin-bottom:7px;
+}
+.vsz-redirection #redirection-setting-form .additional-setting div.remove_entry{
+	margin-top:20px;
+}
+.vsz-redirection .vsz-redirection-import-export-sec{
+	max-width:500px;
+}
+.vsz-redirection .vsz-redirection-import-export-sec .file-export-sec{
+	margin-top:50px;
+}
+.vsz-redirection .vsz-redirection-import-export-sec .btn-sec{
+	margin-top:15px;
+}
+.vsz-redirection .vsz-redirection-import-export-sec .example-file{
+	margin-left:5px;
+	font-weight:normal;
+}
+.vsz-redirection .vsz-redirection-import-export-sec .import-lbl{
+	margin-bottom:5px;
+}
+.vsz-redirection .vsz-redirection-import-export-sec .file-import-sec,
+.vsz-redirection .vsz-redirection-import-export-sec .file-export-sec{
+	border:1px solid #d3d3d3;
+	padding:20px;
+}
+.vsz-redirection #vsz-insert-form-404-page-sec{
+	padding-top:50px;
+	display:none;
+}
+.vsz-redirection .redirection-list-form,
+.vsz-redirection .list-404-pages-form{
+	position:relative;
+}
+.vsz-redirection .total-no-of-record{
+	position:absolute;
+	bottom:15px;
+	right:0;
+}
+.vsz-redirection .click-download{
+	margin-bottom:10px;
+}
+.vsz-redirection .skip-record-title{
+	color:#000;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.vsz-redirection .filter-record-sec{
+	margin-bottom:15px;
+	margin-top:30px;
+}
+.vsz-redirection .filter-record-form .filter-field{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:10px;
+}
+.vsz-redirection .filter-record-form .filter-field.search-field{
+	width:18%;
+}
+.vsz-redirection .filter-record-form.filter-404-record .filter-field.search-field{
+	width:20%;
+}
+.vsz-redirection .filter-record-form .filter-field.select-field{
+	min-width:12%;
+}
+.vsz-redirection .filter-record-form .submit-field input{
+	margin:0;
+	padding:2px 23px 4px 23px;
+}

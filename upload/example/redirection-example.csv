@@ -1,0 +1,3 @@
+Type,Source-URL,Destination-URL,Regular-Expression,Hide
+301,/about.html,http://www.domain-name.com/about-us/,1,1
+302,/contact,http://www.domain-name.com/,0,0

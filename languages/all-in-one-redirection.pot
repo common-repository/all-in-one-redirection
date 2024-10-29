@@ -1,0 +1,409 @@
+# Copyright (C) 2018 All In One Redirection
+# This file is distributed under the same license as the All In One Redirection package.
+msgid ""
+msgstr ""
+"Project-Id-Version: All In One Redirection 2.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/all-in-one-"
+"redirection\n"
+"POT-Creation-Date: 2018-08-09 10:45:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-all-in-one-redirection-admin.php:427
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:86
+msgid "Redirection"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:88
+#: admin/partials/class-all-in-one-redirection-admin-display.php:98
+msgid "Redirection Setting"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:90
+#: admin/partials/class-all-in-one-redirection-admin-display.php:674
+msgid "404 Pages List"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:92
+msgid "Tool"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:147
+msgid "Setting saved successfully."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:160
+msgid "Host Setting"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:168
+msgid "WWW Setting"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:176
+msgid "Additional Setting"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:177
+msgid "Enable Host and WWW setting."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:178
+msgid "Set the default redirection based on website URL."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:179
+msgid "Delete all Redirection once deactivate the plugin."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:181
+msgid "Note:"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:181
+msgid ""
+"Please deactivate this plugin before you migrate the website from one server "
+"to another server and then reactivate this plugin on the new server."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:184
+msgid "Save"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:213
+#: admin/partials/class-all-in-one-redirection-admin-display.php:946
+msgid "Add New Redirection"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:266
+#: admin/partials/class-all-in-one-redirection-admin-display.php:776
+msgid "Record added successfully."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:270
+#: admin/partials/class-all-in-one-redirection-admin-display.php:780
+msgid "Please insert valid source url because of duplicate entry."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:274
+#: admin/partials/class-all-in-one-redirection-admin-display.php:784
+msgid "Please insert valid source url with slash(/)."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:278
+#: admin/partials/class-all-in-one-redirection-admin-display.php:788
+msgid "Please insert the source url."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:286
+#: admin/partials/class-all-in-one-redirection-admin-display.php:948
+msgid "Redirection Type"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:287
+#: admin/partials/class-all-in-one-redirection-admin-display.php:508
+#: admin/partials/class-all-in-one-redirection-admin-display.php:829
+#: admin/partials/class-all-in-one-redirection-admin-display.php:949
+msgid "Source URL"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:287
+#: admin/partials/class-all-in-one-redirection-admin-display.php:288
+#: admin/partials/class-all-in-one-redirection-admin-display.php:508
+#: admin/partials/class-all-in-one-redirection-admin-display.php:509
+#: admin/partials/class-all-in-one-redirection-admin-display.php:949
+#: admin/partials/class-all-in-one-redirection-admin-display.php:950
+msgid "Eg."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:288
+#: admin/partials/class-all-in-one-redirection-admin-display.php:509
+#: admin/partials/class-all-in-one-redirection-admin-display.php:950
+msgid "Destination URL"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:290
+#: admin/partials/class-all-in-one-redirection-admin-display.php:551
+#: admin/partials/class-all-in-one-redirection-admin-display.php:951
+msgid "Regular Expression"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:291
+#: admin/partials/class-all-in-one-redirection-admin-display.php:855
+#: admin/partials/class-all-in-one-redirection-admin-display.php:953
+msgid "Add Redirection"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:297
+msgid "Redirection List"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:312
+#: admin/partials/class-all-in-one-redirection-admin-display.php:688
+msgid "Search Keyword"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:316
+msgid "Select Type"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:323
+msgid "Select Hidden Records"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:324
+#: admin/partials/class-all-in-one-redirection-admin-display.php:331
+msgid "True"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:325
+#: admin/partials/class-all-in-one-redirection-admin-display.php:332
+msgid "False"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:330
+msgid "Select Reg. Exp. Records"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:336
+#: admin/partials/class-all-in-one-redirection-admin-display.php:691
+msgid "Filter"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:348
+#: admin/partials/class-all-in-one-redirection-admin-display.php:703
+msgid "All Record deleted successfully."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:361
+msgid "Hits records are reset successfully."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:424
+msgid "Record updated successfully."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:436
+#: admin/partials/class-all-in-one-redirection-admin-display.php:718
+msgid "Record deleted successfully."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:493
+#: admin/partials/class-all-in-one-redirection-admin-display.php:863
+msgid "Delete All"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:499
+msgid "Reset Hits"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:507
+msgid "Type"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:511
+#: admin/partials/class-all-in-one-redirection-admin-display.php:832
+msgid "Hits"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:512
+msgid "Setting"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:546
+msgid "More Setting"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:552
+msgid "Hide"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:553
+msgid "Last Access"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:554
+#: admin/partials/class-all-in-one-redirection-admin-display.php:830
+msgid "Referrer"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:555
+#: admin/partials/class-all-in-one-redirection-admin-display.php:831
+msgid "Access IP"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:564
+msgid "Update"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:565
+#: admin/partials/class-all-in-one-redirection-admin-display.php:862
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:566
+#: admin/partials/class-all-in-one-redirection-admin-display.php:864
+msgid "Total"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:566
+#: admin/partials/class-all-in-one-redirection-admin-display.php:864
+msgid "Records"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:587
+#: admin/partials/class-all-in-one-redirection-admin-display.php:591
+#: admin/partials/class-all-in-one-redirection-admin-display.php:882
+#: admin/partials/class-all-in-one-redirection-admin-display.php:886
+msgid "First"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:588
+#: admin/partials/class-all-in-one-redirection-admin-display.php:592
+#: admin/partials/class-all-in-one-redirection-admin-display.php:883
+#: admin/partials/class-all-in-one-redirection-admin-display.php:887
+msgid "Prev"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:637
+#: admin/partials/class-all-in-one-redirection-admin-display.php:642
+#: admin/partials/class-all-in-one-redirection-admin-display.php:932
+#: admin/partials/class-all-in-one-redirection-admin-display.php:937
+msgid "Next"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:639
+#: admin/partials/class-all-in-one-redirection-admin-display.php:644
+#: admin/partials/class-all-in-one-redirection-admin-display.php:934
+#: admin/partials/class-all-in-one-redirection-admin-display.php:938
+msgid "Last"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:653
+#: admin/partials/class-all-in-one-redirection-admin-display.php:960
+msgid "No record found."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:828
+msgid "Access Date"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:833
+msgid "Action"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:978
+msgid "Redirection Bulk Import"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1079
+msgid ""
+"Below records are skipped because duplicate entry or source url is not "
+"valid. So, please check it."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1082
+msgid "Index "
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1089
+msgid ""
+"Number of fields in csv file does not matched and file must be separated "
+"with comma."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1096
+msgid "File permission not valid."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1101
+msgid "Folder permission not valid."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1106
+msgid "Invalid file type. Please upload the csv file."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1111
+msgid "Please upload the file."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1118
+msgid "All records are added successfully."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1123
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1183
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1228
+msgid "There is some technical problem. Please try again."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1128
+msgid "Select CSV File"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1128
+msgid "Example CSV"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1133
+msgid "Import"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1138
+msgid "Redirection Bulk Export"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1174
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1219
+msgid "Click here"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1174
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1219
+msgid " to download the file."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1179
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1224
+msgid ""
+"There is some folder permission issue. Please set the proper file permission."
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1234
+msgid "Export All Redirection List"
+msgstr ""
+
+#: admin/partials/class-all-in-one-redirection-admin-display.php:1234
+msgid "Export 404 Pages List"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "All In One Redirection"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/all-in-one-redirection/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"All in one redirection provides functionality to redirect the page request "
+"to another page of website and its also provide the host/www redirection "
+"setting, 404 page detection and bulk import/export."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Vsourz Digital <mehul@vsourz.com>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.vsourz.com"
+msgstr ""
